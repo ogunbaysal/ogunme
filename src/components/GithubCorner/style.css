@@ -1,0 +1,12 @@
+.github_corner {
+    display: block;
+}
+
+.github_corner svg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 0;
+    fill: #337ab7;
+    color: #fff;
+}

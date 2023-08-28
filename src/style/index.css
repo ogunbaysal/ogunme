@@ -1,0 +1,29 @@
+:root {
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color-scheme: light dark;
+  color: #444;
+  background: #fafafa;
+
+  --border-top-width: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border-top: var(--border-top-width) solid #337ab7;
+  margin: 0;
+  padding: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #fff;
+    background: #1c1c1c;
+  }
+}
