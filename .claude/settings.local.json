@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "WebFetch(domain:opencut.app)",
+      "Bash(mkdir:*)",
+      "Bash(npm run build:*)"
+    ],
+    "deny": []
+  }
+}
